@@ -61,13 +61,13 @@ def handle_calculate_IK(req):
         x01 = 0.75; x12 = 0.; x23 = 0.; x34 = 1.5; x45 = 0.; x56 = 0.; x67 = 0.45
 
         dhParams = {
-		   alpha0: alpha01, a0: z01, d1: x01,
-		   alpha1: alpha12, a1: z12, d2: x12,
-		   alpha2: alpha23, a2: z23, d3: x23,
-		   alpha3: alpha34, a3: z34, d4: x34,
-		   alpha4: alpha45, a4: z45, d5: x45,
-		   alpha5: alpha56, a5: z56, d6: x56,
-	  	   alpha6: alpha67, a6: z67, d7: x67,
+		   'alpha0': alpha01, 'a0': z01, 'd1': x01,
+		   'alpha1': alpha12, 'a1': z12, 'd2': x12,
+		   'alpha2': alpha23, 'a2': z23, 'd3': x23,
+		   'alpha3': alpha34, 'a3': z34, 'd4': x34,
+		   'alpha4': alpha45, 'a4': z45, 'd5': x45,
+		   'alpha5': alpha56, 'a5': z56, 'd6': x56,
+	  	   'alpha6': alpha67, 'a6': z67, 'd7': x67,
 	           }
 
         # Initialize service response
